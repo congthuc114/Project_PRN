@@ -1,0 +1,24 @@
+﻿@page
+@model LoginModel
+
+@{ 
+    ViewData["Title"] = "Log in";
+    Layout = "~/Areas/Identity/Pages/_LayoutQTUser.cshtml";
+}
+
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<h1>Login System</h1>
+
+<form id="account" method="post">
+    Email: <input asp-for="Input.Email" /> <br />
+    Password: <input asp-for="Input.Password" /> <br />
+    Remember: <input asp-for="Input.RememberMe"/>
+    <button type="submit">Đăng nhập</button>
+</form>
+
+
+

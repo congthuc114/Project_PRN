@@ -30,6 +30,8 @@ vào Layout ở Home để hiển thị Register và Login ở trang Home.
 21. Gán User vào Role (Seed user to role).
 22. Gọi các hàm mới vừa viết ở "OnModelCreating" --> this.SeedRoles(builder);
 23. Thêm vào ".AddRoles<IdentityRole>()" vào IdentityHostingStartup.
+24. Add identity để quản lý Account (Account/ ManageIndex) | Ấn vào page sau đó Add
+25. Bổ sung vào phần code để thay đổi được thêm thông tin.
 
 
 ----------------------------------------------------------------------
